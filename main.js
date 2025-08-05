@@ -1,3 +1,5 @@
+console.log('Debug start');
+
 class RealEstateAssistant {
   constructor(sheetId, openAiKey) {
     this.SHEET_ID = sheetId;
@@ -10,6 +12,7 @@ class RealEstateAssistant {
     this.sheetOwners = ss.getSheetByName('Owners');
     this.sheetViewings = ss.getSheetByName('Viewings');
   }
+
 
   run() {
     const startTime = Date.now();
@@ -423,3 +426,5 @@ function main() {
   const assistant = new RealEstateAssistant(SHEET_ID, OPENAI_API_KEY);
   assistant.run();
 }
+
+console.log('Debug stop');
