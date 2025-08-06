@@ -1,0 +1,10 @@
+# Terms of Service
+
+This Google Workspace add-on is provided "as is", without warranty of any kind.
+
+By using this add-on, you agree that:
+- You are solely responsible for the data you provide and process.
+- The developer is not liable for any damages arising from the use of this tool.
+- You will not use the add-on to violate any local laws or third-party rights.
+
+We reserve the right to discontinue support or access at any time.

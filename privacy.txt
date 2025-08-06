@@ -1,0 +1,8 @@
+# Privacy Policy
+
+This Google Workspace add-on does not collect or store any personal data on external servers.
+
+All processing is done locally within your Google Workspace environment using Apps Script.  
+We do not access, transmit, or store any user data outside your account.
+
+Your data stays under your control.
