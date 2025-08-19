@@ -42,12 +42,13 @@
 
     <h2>1. Data Collection and Use</h2>
     <p>Our application accesses Google user data solely for the functionality described and only with the user’s explicit consent through OAuth 2.0. Specifically, the app may request access to the following:</p>
-    <ul>
-      <li><strong>Gmail content and metadata</strong> (<code>gmail.readonly</code>, <code>gmail.modify</code>, <code>gmail.send</code>) — used to read, reply, and send messages based on defined triggers.</li>
-      <li><strong>Google Sheets</strong> (<code>spreadsheets</code>) — used to create and update sheets based on incoming emails.</li>
-      <li><strong>External requests</strong> (<code>script.external_request</code>) — used to send notifications or access third-party APIs as needed.</li>
-      <li><strong>Script triggers</strong> (<code>script.scriptapp</code>) — used to automate the application in the background at time intervals.</li>
-    </ul>
+  <ul>
+  <li><strong>Gmail content and metadata</strong> (<code>gmail.readonly</code>, <code>gmail.modify</code>, <code>gmail.send</code>) — used to read, reply, and send messages based on defined triggers.</li>
+  <li><strong>Google Drive (full access)</strong> (<code>drive</code>) — used to manage user files related to the app, including reading, creating, editing, and deleting files necessary for functionality.</li>
+  <li><strong>Google Drive (app-created files only)</strong> (<code>drive.file</code>) — used to create and access only those files that the application itself has created or that the user explicitly selects.</li>
+  <li><strong>External requests</strong> (<code>script.external_request</code>) — used to send notifications or access third-party APIs as needed.</li>
+  <li><strong>Script triggers</strong> (<code>script.scriptapp</code>) — used to automate the application in the background at time intervals.</li>
+</ul>
     <p>We do not store, share, or sell any user data. All processing happens within the Google Apps Script environment provided by Google.</p>
 
     <hr>
